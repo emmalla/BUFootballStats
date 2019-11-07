@@ -30,7 +30,6 @@ bu_football_data_std = std(bu_football_data);
 
 %% z-scores (5)
 
-
 %% normalized data plots (6)
 
 %% summaries (7)
