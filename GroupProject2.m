@@ -6,13 +6,14 @@ randn_data = randn(1,50);
 bu_football_data = []; 
 bu_football_years = [];
 
+%% plots (3)
 figure
-hist(rand_data);
+hist(rand_data,10);
 
 figure
-hist(randn_data);
+hist(randn_data,10);
 
-%% statistics
+%% statistics (4)
 
 rand_data_mean = mean(rand_data);
 randn_data_mean = mean(randn_data);
