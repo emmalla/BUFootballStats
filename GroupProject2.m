@@ -26,3 +26,5 @@ bu_football_data_median = median(bu_football_data);
 rand_data_std = std(rand_data);
 randn_data_std = std(randn_data);
 bu_football_data_std = std(bu_football_data);
+
+%% z-scores (5)
