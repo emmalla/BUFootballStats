@@ -30,6 +30,14 @@ bu_football_data_std = std(bu_football_data);
 
 %% z-scores (5)
 
+rand_data_vectorized_zscore = ((rand_data - rand_data_mean) / rand_data_std)
+randn_data_vectorized_zscore = ((randn_data - randn_data_mean) / randn_data_std)
+bu_football_data_vectorized_zscore = ((bu_football_data - bu_football_data_mean) / bu_football_data_std)
+
+rand_data_matlab_zscore = zscore(rand_data)
+randn_data_matlab_zscore = zscore(randn_data)
+bu_football_data_matlab_zscore = zscore(bu_football_data)
+
 %% normalized data plots (6)
 
 %% summaries (7)
