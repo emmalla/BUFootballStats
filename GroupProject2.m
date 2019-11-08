@@ -86,5 +86,31 @@ title('Normalized rand Data Histogram with 20 Bins')
 xlabel('Values')
 ylabel('Occurrences')
 
+figure(5)
+
+subplot(2, 2, 1);
+hist(randn_data_matlab_zscore, 3);
+title('Normalized randn Data Histogram with 3 Bins')
+xlabel('Values')
+ylabel('Occurrences')
+
+subplot(2, 2, 2);
+hist(randn_data_matlab_zscore, 5);
+title('Normalized randn Data Histogram with 5 Bins')
+xlabel('Values')
+ylabel('Occurrences')
+
+subplot(2, 2, 3);
+hist(randn_data_matlab_zscore, 10);
+title('Normalized randn Data Histogram with 10 Bins')
+xlabel('Values')
+ylabel('Occurrences')
+
+subplot(2, 2, 4);
+hist(randn_data_matlab_zscore, 20);
+title('Normalized randn Data Histogram with 20 Bins')
+xlabel('Values')
+ylabel('Occurrences')
+
 %% summaries (7)
 
