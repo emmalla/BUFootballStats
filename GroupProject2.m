@@ -139,4 +139,6 @@ xlabel('Values')
 ylabel('Occurrences')
 
 %% summaries (7)
-
+% Figure 4 (rand) presents a uniform distribution over the interval (0, 1), while Figure 5 (randn) presents a normal distribution over the interval (-infinity, infinity). 
+% The smaller random sample (rand) is less similar to the actual distribition than the larger random sample (randn).   
+% The more bins present, the more representation of individual values, making the visible data more accurate. 
